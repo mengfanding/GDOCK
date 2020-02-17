@@ -84,3 +84,5 @@ jobs:
       with:
         name: G-DOCK
         path: ./lede/bin
+    - name: 通知
+      run: curl "https://sc.ftqq.com/SCU57843T2ff932ee139ac5d34c0e18bd1836b7945d5ab38719b19.send?text=编译完成"
